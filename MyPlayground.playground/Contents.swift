@@ -10,14 +10,13 @@ class MyViewController : UIViewController {
 
         let box = UIImage();
         box.draw(in: CGRect(x: 150, y: 200, width: 200, height: 20))
-        box.
+        
         let label = UILabel()
         label.frame = CGRect(x: 150, y: 200, width: 200, height: 20)
         label.text = "Hello World!"
         label.textColor = .white
         
         view.addSubview(label)
-        view.addSubview(box)
         self.view = view
     }
 }
